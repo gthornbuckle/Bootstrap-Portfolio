@@ -1,8 +1,82 @@
 :root{
-
+    --grey: rgb(59, 56, 75);
+    --darkGrey: rgb(41, 40, 51);
+    --blue: rgb(33, 126, 212);
+    --darkBlue: rgb(18, 105, 187);
+    --teal: teal;
+    --darkTeal: rgb(4, 97, 97);
 }
 
 body{
     width: 100%;
     height: 100%;
 }
+
+a{
+    color: var(--blue);
+}
+
+a:hover, a:focus {
+    color: var(--darkBlue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  color: var(--grey);
+}
+
+#mainNavbar{
+    background-color: var(--darkGrey);
+    border-color: white;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+#mainNavbar .navbarTitle{
+    color:white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.navbar-text{
+    color:var(--blue) !important;
+    text-transform: uppercase;
+    margin-left: 2%;
+    text-decoration: underline;
+}
+
+#mainNavbar a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+ #mainNavbar .navbar-nav > li > a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+  
+  #mainNavbar .navbar-nav > li > a.active {
+    color: #fdcc52 !important;
+    background-color: transparent;
+  }
+  
+  #mainNavbar .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+  }
+  
+  #mainNavbar .navbar-nav > li > a,
+  #mainNavbar .navbar-nav > li > a:focus {
+    color: var(--teal);
+  }
+  
+  #mainNavbar .navbar-nav > li > a:hover,
+  #mainNavbar .navbar-nav > li > a:focus:hover {
+    color: var(--darkTeal);
+  }
+
