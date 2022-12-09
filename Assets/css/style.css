@@ -115,7 +115,11 @@ p{
 }
 
 .content {
-    padding: 16px;
+    margin:10px;
+}
+
+.container-fluid{
+    padding: 0;
 }
 
 .sectionHeading {
@@ -161,4 +165,19 @@ p{
     padding: 16px;
     text-align: justify;
 }
+
+#contact-icons{
+    justify-content: center;
+}
+
+#contact-icon-img{
+    height:60px;
+    width: 60px;
+    padding: 16px;
+}
+
+#contact-icon-img:hover{
+  filter:drop-shadow(2px 2px 2px rgb(17, 17, 17));
+}
+*/
   
