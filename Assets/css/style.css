@@ -31,6 +31,11 @@ h6 {
     color: white;
 }
 
+p{
+    color: white;
+    font-weight: 100;
+}
+
 #mainNavbar{
     background-color: var(--darkGrey);
     border-color: white;
@@ -104,8 +109,13 @@ h6 {
     padding: 20px;
 }
 
+.lead{
+    padding:20px;
+    text-align: justify;
+}
+
 .content {
-    padding: 50px;
+    padding: 16px;
 }
 
 .sectionHeading {
@@ -131,6 +141,11 @@ h6 {
     padding:4px;
 }
 
+.card-body p{
+    color: var(--teal);
+    font-weight: 400;
+}
+
 .card-img-top{
     border-radius: 0;
     width:100%;
@@ -138,4 +153,12 @@ h6 {
     object-fit:cover;
 }
 
+#about-me-container{
+    display: flex;
+}
+
+#about-me-container p{
+    padding: 16px;
+    text-align: justify;
+}
   
