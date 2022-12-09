@@ -26,8 +26,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
-  color: var(--grey);
+    font-weight: 300;
+    color: var(--grey);
 }
 
 #mainNavbar{
@@ -61,22 +61,51 @@ h6 {
     text-transform: uppercase;
 }
   
-  #mainNavbar .navbar-nav > li > a.active {
+#mainNavbar .navbar-nav > li > a.active {
     color: #fdcc52 !important;
     background-color: transparent;
-  }
+}
   
-  #mainNavbar .navbar-nav > li > a.active:hover {
+#mainNavbar .navbar-nav > li > a.active:hover {
     background-color: transparent;
-  }
+}
   
-  #mainNavbar .navbar-nav > li > a,
-  #mainNavbar .navbar-nav > li > a:focus {
+#mainNavbar .navbar-nav > li > a,
+#mainNavbar .navbar-nav > li > a:focus {
     color: var(--teal);
-  }
+}
   
-  #mainNavbar .navbar-nav > li > a:hover,
-  #mainNavbar .navbar-nav > li > a:focus:hover {
+#mainNavbar .navbar-nav > li > a:hover,
+#mainNavbar .navbar-nav > li > a:focus:hover {
     color: var(--darkTeal);
-  }
+}
 
+.pageTop{
+    background-image: url(../images/placeholder-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:calc(50vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    color:white;
+}
+
+.jumbotronHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.jumbotronHeader h1{
+  font-size: 32px;
+  color: white;
+}
+
+#photo{
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    padding: 20px;
+}
