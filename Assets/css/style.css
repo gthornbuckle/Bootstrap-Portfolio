@@ -101,6 +101,7 @@ p{
     align-items:center;
     justify-content: flex-end;
     color:white;
+    margin-top: 50px;
 }
 
 .jumbotronHeader{
@@ -209,6 +210,26 @@ p{
 
     .pageTop{
         flex-direction: row;
+        align-items: center;
         height:calc(40vh);
+    }
+
+    #mainNavbar .navbarTitle{
+        color:white;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+
+    .navbar-text{
+        font-size: 16px;
+    }
+
+    .lead{
+        font-size: 16px;
+    }
+
+    .content{
+        flex-direction: column;
     }
 }

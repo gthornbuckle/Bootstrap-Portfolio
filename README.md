@@ -19,7 +19,7 @@ Access contact information by clicking the buttons in the footer.
 
 ## Deployed Page
 
-![deployed page](./Assets/Images/deployedpage.PNG)
+![deployed page](./Assets/images/deployedpage.PNG)
 
 ## Credits
 
