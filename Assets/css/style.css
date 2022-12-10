@@ -171,7 +171,7 @@ p{
 }
 
 .btn:hover{
-    box-shadow: 0 5px 10px rgba(10, 8, 124, 0.5)
+    box-shadow: 0 5px 10px rgba(4, 3, 36, 0.61);
 }
 
 #about-me-container{
@@ -189,6 +189,7 @@ p{
 
 #contact-icons{
     justify-content: center;
+    background-color: var(--darkGrey);
 }
 
 #contact-icon-img{
@@ -198,5 +199,16 @@ p{
 }
 
 #contact-icon-img:hover{
-  filter:drop-shadow(2px 2px 2px rgb(17, 17, 17));
+    box-shadow: 0 5px 10px rgba(4, 3, 36, 0.61);
+}
+
+@media screen and (max-width: 540px) {
+    .jumbotronHeader h1{
+        display: none;
+      }
+
+    .pageTop{
+        flex-direction: row;
+        height:calc(40vh);
+    }
 }
